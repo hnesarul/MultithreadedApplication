@@ -40,8 +40,8 @@ public class MultiThreadTest {
 		threadd.start();
 
 		try {
-			threada.join();
-			threadb.join();
+			threadc.join();
+			threadd.join();
 			resultC = taskc.getResult();
 			resultD = taskd.getResult();
 
